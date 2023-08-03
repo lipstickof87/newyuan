@@ -1,0 +1,30 @@
+.header{
+  .nav {
+  display: flex;
+  padding: 0 24px;
+ 
+  align-items: center;
+  width:100%;
+  .left-entry {
+  display: flex;
+  .left-entry-item {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    margin-right: 10px;
+   
+      font-size: 14px;
+      color: white;
+      
+      /* 不用span{font-size: 14px;} 
+      alt+shift+a
+      */
+      
+    
+  }
+}
+  
+  }
+}
+
+
