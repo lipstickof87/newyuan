@@ -1,65 +1,59 @@
-.header{
+.header {
   .nav {
-  display: flex;
-  padding: 0 24px;
- 
-  align-items: center;
-  width:100%;
-  .left-entry {
-  display: flex;
-  .left-entry-item {
     display: flex;
+    padding: 0 24px;
+
     align-items: center;
-    height: 64px;
-    margin-right: 10px;
-   
-      font-size: 14px;
-      color: white;
-      
-      /* 不用span{font-size: 14px;} 
+    width: 100%;
+    .left-entry {
+      display: flex;
+      .left-entry-item
+      {
+        align-items: center;
+        height: 64px;
+        margin-right: 10px;
+     
+        color: white;
+        /* 不用span{font-size: 14px;} 
       alt+shift+a
       */
-      
-    
+      }
+    }
+    .search:hover {
+      background-color: #fff;
+    }
+    .search {
+      display: flex;
+      /* width: 100%; */
+      flex: 1;
+
+      height: 40px;
+      padding: 0 48px 0 4px;
+
+      background-color: #f1f2f3;
+      border-radius: 8px;
+      border: 1px solid #e3e5e7;
+
+      align-items: center;
+      position: relative;
+      .input-wrapper {
+        display: flex;
+        height: 20px;
+        width: 100%;
+        padding: 0 8px;
+        .search-input {
+          flex: 1;
+          background-color: transparent;
+          display: flex;
+          line-height: 20px;
+          overflow: hidden;
+          padding-right: 8px;
+        }
+      }
+
+      button {
+        position: absolute;
+      }
+    }
   }
 }
-   .search:hover{
-    background-color: #fff;
-   }
-  .search {
-     display: flex;
-    /* width: 100%; */flex: 1;
-     
-    height: 40px;
-    padding: 0 48px 0 4px;
-    
-    background-color: #f1f2f3;
-    border-radius: 8px;
-    border: 1px solid #e3e5e7;
-
-    align-items: center;
-    position: relative;
-    .input-wrapper{
-      display: flex;
-      height: 20px;
-      width: 100%;
-      padding: 0 8px;
-      .search-input{
-      flex:1;
-      background-color: transparent;
-      display: flex;
-      line-height: 20px;
-      overflow: hidden;
-      padding-right: 8px;
-    }
-    }
-   
-    button {
-      position: absolute;
-
-    }
-  }
-  }
-}
-
-
