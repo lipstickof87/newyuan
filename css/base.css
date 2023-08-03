@@ -14,4 +14,9 @@ a{
 body {
   background-color:lightblue;
   font-size: 14px;
+} 
+
+input {
+  border: 0 none;
+  outline-style:none;
 }
